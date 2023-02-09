@@ -1,0 +1,43 @@
+{
+   "lambdatest_auth": {
+      "username": "meerap",
+      "access_key": "ddcAUzYOhuvr9rvanfRYWnRABIpN9zyMOoM2eUZtF7MmuD9MAO"
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      },
+      {
+         "browser": "Firefox",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      }
+   ],
+   "run_settings": {
+      "cypress_config_file": "cypress.json",
+      "build_name": "build-name",
+      "parallels": 2,
+      "specs": "./cypress/integration/examples/aliasing.spec.js",
+      "ignore_files": "",
+      "feature_file_suppport": false,
+      "network": true,
+      "visual": true,
+      "console": true,
+      "terminal": true,
+      "headless": false,
+      "reporter_config_file": "",
+      "npm_dependencies": {
+         "cypress": "9.0.0"
+      }
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
+}
