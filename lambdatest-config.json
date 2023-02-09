@@ -21,9 +21,9 @@
    ],
    "run_settings": {
       "cypress_config_file": "cypress.json",
-      "build_name": "build-name",
+      "build_name": "Cy_Demo",
       "parallels": 2,
-      "specs": "./cypress/integration/examples/aliasing.spec.js",
+      "specs": "./cypress/integration/examples/*.spec.js",
       "ignore_files": "",
       "feature_file_suppport": false,
       "network": true,
