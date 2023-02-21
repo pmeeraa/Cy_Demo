@@ -1,7 +1,7 @@
 {
    "lambdatest_auth": {
-      "username": "meerap",
-      "access_key": "I9ADikrjXtd5i0yOXOtjmRQRSpcA5ng6PxIvHwEuWvNtQ8CTWd"
+      "username": "<YOUR_LAMBDATEST_USERNAME>",
+      "access_key": "<Your LambdaTest access key>"
    },
    "browsers": [
       {
