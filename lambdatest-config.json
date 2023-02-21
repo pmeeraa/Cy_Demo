@@ -28,6 +28,7 @@
       "ignore_files": "",
       "network": false,
       "headless": false,
+      "test": "lambdatest-cypress run",
       "npm_dependencies": {
          "cypress": "9.6"
       }
